@@ -1,5 +1,12 @@
+body {
+    background: rgb(255,233,207);
+    background: radial-gradient(circle, rgba(255,233,207,1) 0%, rgba(192,228,220,1) 56%, rgba(131,173,147,1) 100%);
+}
+
 h2 {
     text-align: center;
+    font-size: 70px;
+    margin: 35px 0 25px;
 }
 
 .event-timeline {
@@ -12,10 +19,24 @@ h2 {
 
 .event-item {
     /* margin-bottom: 4vw; */
-    background-color: orange;
+    background-color: rgb(255, 255, 255);
     border-radius: 25px;
+    outline: rgb(50, 33, 33) solid 3px;
+    box-shadow: 5px 5px 3px rgb(50, 33, 33);
+    padding: 1vw;
 }
 
 .down-arrow {
     margin: auto;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.back-button {
+    left: 45%;
+    bottom: 10%;
+    position: absolute;
 }

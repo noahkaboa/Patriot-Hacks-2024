@@ -19,6 +19,19 @@ html, body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    animation: fadeInAnimation ease 2.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 h1 {
@@ -32,6 +45,7 @@ h1 {
 h2 {
     font-family: "FreshLychee";
     color: rgb(50, 33, 33);
+    text-shadow: 3px 3px 3px white;
 }
 
 a {
@@ -49,6 +63,21 @@ img {
     object-fit: cover;
 }
 
+button {
+    background-color: white;
+    margin-top: 2vw;
+    font-size: 3.5vh;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: none;
+    padding: 8px 15px;
+    box-shadow: 5px 5px 5px rgb(76, 51, 51);
+}
+
+button:hover, button:active {
+    background-color: rgb(200, 229, 206);
+    transition: all .5s ease;
+}
 
 /* navigation bar css */
 
@@ -62,7 +91,7 @@ img {
     display: flex;
     justify-content: flex-end;
     z-index: 2;
-    background-image: linear-gradient(rgb(255, 233, 207) 50%, rgba(0,0,0,0))
+    background-image: linear-gradient(rgba(255, 233, 207, 1) 75%, rgba(0,0,0,0))
 }
 
 .nav-bar a {

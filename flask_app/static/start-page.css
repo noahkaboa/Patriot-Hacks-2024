@@ -1,6 +1,5 @@
 body {
-    background: rgb(255,233,207);
-    background: radial-gradient(circle, rgba(255,233,207,1) 0%, rgba(192,228,220,1) 56%, rgba(131,173,147,1) 100%);
+    background: #c1dfd0;
 }
 
 .wrapper {
@@ -29,7 +28,8 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: 45px;
-    text-shadow: 3px 3px 3px white;
+    z-index: 2;
+    box-shadow: 5px 0 15px rgb(88, 62, 62);
 }
 
 .left-side p {
@@ -44,7 +44,6 @@ body {
     flex-direction: column;
     width: 70%;
     margin: auto;
-    background-color: red;
 }
 
 .bottom {
