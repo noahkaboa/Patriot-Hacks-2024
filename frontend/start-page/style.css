@@ -1,0 +1,47 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas:
+        "left right"
+        "left bottom";
+    gap: 2vw;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+}
+
+.left-side {
+    grid-area: left;
+    height: 90%;
+    width: 100%;
+    padding: 3vw;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.right-side {
+    grid-area: right;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.right-side * {
+    width: 85%;
+    margin: auto;
+}
+
+.bottom {
+    grid-area: bottom;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

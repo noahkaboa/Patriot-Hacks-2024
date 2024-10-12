@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+
+.event-timeline {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.event-item {
+    /* margin-bottom: 4vw; */
+    background-color: orange;
+    border-radius: 25px;
+}
+
+.down-arrow {
+    margin: auto;
+}
