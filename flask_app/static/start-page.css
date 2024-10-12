@@ -1,3 +1,8 @@
+body {
+    background: rgb(255,233,207);
+    background: radial-gradient(circle, rgba(255,233,207,1) 0%, rgba(192,228,220,1) 56%, rgba(131,173,147,1) 100%);
+}
+
 .wrapper {
     margin: 0;
     padding: 0;
@@ -18,10 +23,18 @@
     height: 90%;
     width: 100%;
     padding: 3vw;
-    background-color: pink;
+    background-color: rgb(137, 183, 151);
     margin: auto;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px white;
+}
+
+.left-side p {
+    margin-top: 0;
+    font-size: 35px;
 }
 
 .right-side {
@@ -47,4 +60,5 @@
     width: 60%;
     margin: auto;
     margin-top: 1vw;
+    font-size: 20px;
 }

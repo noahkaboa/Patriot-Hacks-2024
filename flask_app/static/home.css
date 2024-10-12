@@ -1,18 +1,38 @@
 .text {
     margin: 0;
     margin-left: 2vw;
-    top: 40%;
+    top: 25%;
     position: absolute;
 }
 
-h1 {
-    font-size: 100px;
+.subtitle {
+    font-size: 35px;
     margin: 0;
+    font-style: italic;
     font-family: "FreshLychee", serif;
+    text-shadow: 2px 2px 2px white;
 }
 
-.subtitle {
-    font-size: 18px;
-    margin-top: 0;
-    font-style: italic;
+.home-bg {
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    filter: blur(5px) contrast(70%) brightness(115%);
+}
+
+.home-start-button {
+    background-color: white;
+    margin-top: 2vw;
+    font-size: 3.5vh;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: none;
+    padding: 8px 15px;
+    box-shadow: 5px 5px 5px rgb(76, 51, 51);
+}
+
+.home-start-button:hover, .home-start-button:active {
+    background-color: rgb(200, 229, 206);
+    transition: all .5s ease;
 }
