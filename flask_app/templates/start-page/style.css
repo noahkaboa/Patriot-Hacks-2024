@@ -29,13 +29,9 @@
     margin-top: 10vw;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     margin: auto;
-}
-
-.right-side * {
-    width: 85%;
-    margin: auto;
+    background-color: red;
 }
 
 .bottom {
@@ -44,4 +40,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 70%;
+}
+
+.generate-button {
+    width: 60%;
+    margin: auto;
+    margin-top: 1vw;
 }

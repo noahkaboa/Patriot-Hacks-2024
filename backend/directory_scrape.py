@@ -2,7 +2,7 @@ import requests # pip install requests
 from bs4 import BeautifulSoup # pip install beautifulsoup4
 import json # built-in
 
-SERP_API_KEY = "48ae72763a3c7924255094e341a594e0974037dd132ef65472c4d1d8b5fce28d"
+SERP_API_KEY = "38f66aa076de1bc1a5a6df347ce75bfd2c23770e23f9471f9781a793fff36cf4"
 
 def search_location(business_name):
     url = "https://serpapi.com/search.json"
@@ -46,11 +46,10 @@ with open('./resources/directory.json', 'r') as f:
     directory = json.load(f)
     for business_name, business_data in directory.items():
         print(f"{business_name=}, {business_data=}")
-        if "gps_coordinates" not in business_data:
-            if business_data["gps_coordinates"] == None:
-                directory[business_name]["gps_coordinates"] = search_location(business_name)
-                print(f"Added gps coordinates for {business_name}")
-                print(f"{directory[business_name]=}")
+        if "gps_coordinates" not in business_data.keys() or business_data["gps_coordinates"] == None:
+            directory[business_name]["gps_coordinates"] = search_location(business_name)
+            print(f"Added gps coordinates for {business_name}")
+            print(f"{directory[business_name]=}")
 
 with open('./resources/directory.json', 'w') as f:
     json.dump(directory, f)
