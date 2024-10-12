@@ -29,4 +29,4 @@ def rank_businesses(preferences, num_results=5):
 
 
 
-print(rank_businesses(["cafe", "homemade", "coffee", "3d printing", "lunch", "wifi", "vegan"], 5))
+# print(rank_businesses(["cafe", "homemade", "coffee", "3d printing", "lunch", "wifi", "vegan"], 5))
