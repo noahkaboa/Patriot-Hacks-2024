@@ -47,9 +47,10 @@ with open('./resources/directory.json', 'r') as f:
     for business_name, business_data in directory.items():
         print(f"{business_name=}, {business_data=}")
         if "gps_coordinates" not in business_data:
-            directory[business_name]["gps_coordinates"] = search_location(business_name)
-            print(f"Added gps coordinates for {business_name}")
-            print(f"{directory[business_name]=}")
+            if business_data["gps_coordinates"] == None:
+                directory[business_name]["gps_coordinates"] = search_location(business_name)
+                print(f"Added gps coordinates for {business_name}")
+                print(f"{directory[business_name]=}")
 
 with open('./resources/directory.json', 'w') as f:
     json.dump(directory, f)
