@@ -29,10 +29,19 @@
         </div>
     </div>
     <script defer>
+        var interestsInput = document.querySelector('.interests-input')
+        interestsInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                addInterest()
+            }
+        })
+
         interests =[]
         function addInterest() {
             let interest = document.querySelector('.interests-input').value
             interests.push(interest)
+
+            interestsInput.value = ""
 
             let interestElement = `<div class="interest-element">${interest}</div>`
 

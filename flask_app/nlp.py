@@ -29,8 +29,8 @@ def rank_businesses(preferences, num_results=5):
 
         scores[business_name] = score
 
-    sorted_scores = sorted(scores.items(), key=lambda x: x[1], reverse=True)
-    return sorted_scores[:num_results].items()
+    sorted_scores = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:num_results]
+    return [x[0] for x in sorted_scores]
 
 
 
