@@ -1,0 +1,17 @@
+.wrapper {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "left right right";
+}
+
+.left-side {
+    grid-area: left;
+}
+
+.right-side {
+    grid-area: right;
+    top: 50%;
+    position: absolute;
+}
