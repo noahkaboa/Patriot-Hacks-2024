@@ -1,11 +1,11 @@
-from flask import Flask # pip install flask
+from flask import Flask, render_template # pip install flask
 import nlp
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    pass
+    render_template('index.html')
 
 
 
