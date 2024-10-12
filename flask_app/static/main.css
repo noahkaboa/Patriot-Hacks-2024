@@ -1,6 +1,16 @@
 @font-face {
+    font-family: "BaksoSapi";
+    src: url(../static/fonts/BaksoSapi.otf);
+}
+
+@font-face {
     font-family: "FreshLychee";
-    src: url(../../fonts\FreshLychee.otf);
+    src: url(../static/fonts/FreshLychee.otf);
+}
+
+@font-face {
+    font-family: "ALittleSunshine";
+    src: url(../static/fonts/ALittleSunshine.ttf);
 }
 
 html, body {
@@ -11,11 +21,53 @@ html, body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-size: 220px;
+    margin: 0;
+    font-family: "FreshLychee", serif;
+    text-shadow: 5px 5px 5px white;
+    color: rgb(50, 33, 33);
+}
+
+h2 {
+    font-family: "FreshLychee";
+    color: rgb(50, 33, 33);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(76, 51, 51);
+    font-family: "ALittleSunshine", serif;
+}
+
+p {
+    font-family: "ALittleSunshine", serif;
+    color: rgb(76, 51, 51);
+}
+
+img {
+    object-fit: cover;
+}
+
+
+/* navigation bar css */
+
 .nav-bar {
     position: relative;
     margin: 0;
-    padding: 0;
+    padding-top: 2vw;
+    padding-right: -3vw;
     width: 100%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    z-index: 2;
+    background-image: linear-gradient(rgb(255, 233, 207) 50%, rgba(0,0,0,0))
+}
+
+.nav-bar a {
+    margin: 0 2vw;
+    font-size: 5vh;
+    color: rgb(76, 51, 51);
+    font-family: "FreshLychee", serif;
 }

@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Day</title>
     <link href="../main.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="../static/your-day.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+    <!-- navigation bar -->
+    <div id="nav-placeholder">
+    </div>
+
+
     <h2> Your Day in Fairfax! </h2>
     <div class="event-timeline">
         <div class="event-item">
@@ -20,5 +26,13 @@
             <p> 2115 F St NW </p>
         </div>
     </div>
+
+
+    <!-- script for the nav bar -->
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
 </body>
 </html>
