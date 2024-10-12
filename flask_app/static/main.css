@@ -37,13 +37,13 @@ html, body {
 h1 {
     font-size: 220px;
     margin: 0;
-    font-family: "FreshLychee", serif;
+    font-family: "Baksosapi", serif;
     text-shadow: 5px 5px 5px white;
     color: rgb(50, 33, 33);
 }
 
 h2 {
-    font-family: "FreshLychee";
+    font-family: "Baksosapi";
     color: rgb(50, 33, 33);
     text-shadow: 3px 3px 3px white;
 }

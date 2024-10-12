@@ -1,0 +1,73 @@
+body {
+    background-color: #CBDDCF;
+    width: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 70px;
+    margin: 35px 0 25px;
+}
+
+h3 {
+    font-family: "FreshLychee", serif;
+    color: rgb(50, 33, 33);
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+h4 {
+    font-family: "BaksoSapi", serif;
+    color: rgb(76, 51, 51);
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.teammate p {
+    font-size: 20px;
+    line-height: 5px;
+}
+
+* {
+    text-align: center;
+}
+
+.main-idea {
+    background-color: #A2BDAA;
+    width: 100%;
+    padding: 3vw 0;
+    margin-top: 0;
+}
+
+.how-works {
+    background-color: #F9F6E7;
+    width: 100%;
+    padding: 3vw 0;
+    margin-top: 0;
+}
+
+.our-team {
+    background-color: #ABB695;
+    width: 100%;
+    padding: 3vw 0;
+    margin-top: 0;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.teammate img {
+    width: 22vw;
+    border-radius: 50%;
+}
+
+.wave {
+    display: relative;
+    width: 100vh;
+}
