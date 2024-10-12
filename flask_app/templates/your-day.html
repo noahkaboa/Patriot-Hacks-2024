@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Day</title>
-    <link href="../main.css" rel="stylesheet" type="text/css" />
+    <link href="../static/main.css" rel="stylesheet" type="text/css" />
     <link href="../static/your-day.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -13,6 +13,13 @@
     <div id="nav-placeholder">
     </div>
 
+
+    <h1>Results</h1>
+    <ul>
+        {% for business in businesses %}
+            <li>{{ business }}</li>
+        {% endfor %}
+    </ul>
 
     <h2> Your Day in Fairfax! </h2>
     <div class="event-timeline">
@@ -27,14 +34,14 @@
         </div>
     </div>
 
-    <button class="back-button"><a href="home.html"> Back to Home </a></button>
+    <button class="back-button"><a href="{{ url_for('home') }}"> Back to Home </a></button>
 
 
     <!-- script for the nav bar -->
-    <script>
+    <!-- <script>
         $(function(){
             $("#nav-placeholder").load("nav.html");
         });
-    </script>
+    </script> -->
 </body>
 </html>

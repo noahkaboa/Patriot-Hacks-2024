@@ -15,20 +15,66 @@
             <p> enter some of your interests to plan your perfect day out! </p>
         </div>
         <div class="right-side">
-            <button> Placeholder </button>
+            
         </div>
         <div class="bottom">
-            <input type="text" class="interests-input">
-            <button class="generate-button"><a href="your-day.html">Generate my day!</a></button>
+
+            <div class="interests-input-wrapper">
+                <input type="text" class="interests-input">
+                <button class="add-button" onclick="addInterest()">Add</button>
+            </div>
+
+
+            <button class="generate-button" onclick="sendToServer()">Generate my day!</button>
         </div>
     </div>
     <script defer>
+        var interestsInput = document.querySelector('.interests-input')
+        interestsInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                addInterest()
+            }
+        })
+
         interests =[]
         function addInterest() {
             let interest = document.querySelector('.interests-input').value
             interests.push(interest)
+
+            interestsInput.value = ""
+
+            let interestElement = `<div class="interest-element">${interest}</div>`
+
+            document.querySelector('.right-side').innerHTML += interestElement
+
             console.log(interests)
+
         }
+
+        function sendToServer() {
+            fetch('/process', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    "interests": interests
+                })
+            })
+            .then(response => {
+                console.log("Heres the response")
+                return response.json()
+            })
+            .then(data => {
+                console.log(data)
+                resultArray = data["recommendations"].join(",")
+                window.location.href = `/your-day/${resultArray}`
+            })
+            .catch((error) => {
+                console.error('Uhoh:', error);
+            });
+        }
+
     </script>
 </body>
 </html>

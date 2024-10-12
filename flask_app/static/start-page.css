@@ -61,3 +61,15 @@ body {
     margin-top: 1vw;
     font-size: 20px;
 }
+
+.interests-input {
+    width: 70%;
+}
+.interests-input-wrapper {
+    display: flex;
+    margin-top: 1vw;
+    gap: 10%;
+}
+.add-button {
+    width: 20%;
+}
