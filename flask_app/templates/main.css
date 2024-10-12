@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "FreshLychee";
+    src: url(../../fonts\FreshLychee.otf);
+}
+
 html, body {
     padding: 0;
     margin: 0;
