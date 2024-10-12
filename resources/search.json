@@ -1,0 +1,491 @@
+{
+  "search_metadata": {
+    "id": "670abf97a2e99c289460abb7",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/a37900f8526b96ad/670abf97a2e99c289460abb7.json",
+    "created_at": "2024-10-12 18:27:35 UTC",
+    "processed_at": "2024-10-12 18:27:35 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/Lake+Anne+Brewhouse?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/a37900f8526b96ad/670abf97a2e99c289460abb7.html",
+    "total_time_taken": 0.91
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "Lake Anne Brewhouse",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Showing results for type: 'place' instead of type: 'search'",
+    "query_displayed": "Lake Anne Brewhouse"
+  },
+  "place_results": {
+    "title": "Lake Anne Brew House",
+    "place_id": "ChIJzYiD_9A3tokRkh33jfBFc9A",
+    "data_id": "0x89b637d0ff8388cd:0xd07345f08df71d92",
+    "data_cid": "15020426081686986130",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x89b637d0ff8388cd%3A0xd07345f08df71d92&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x89b637d0ff8388cd%3A0xd07345f08df71d92&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+      "latitude": 38.968278999999995,
+      "longitude": -77.3412032
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJzYiD_9A3tokRkh33jfBFc9A",
+    "provider_id": "/g/11cm40xzh2",
+    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNx2PQFG_b12nXK53D6Gk8phpLxzLP9_zpp9uR3=w128-h86-k-no",
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 4
+      },
+      {
+        "stars": 2,
+        "amount": 3
+      },
+      {
+        "stars": 3,
+        "amount": 14
+      },
+      {
+        "stars": 4,
+        "amount": 33
+      },
+      {
+        "stars": 5,
+        "amount": 161
+      }
+    ],
+    "rating": 4.6,
+    "reviews": 215,
+    "type": [
+      "Brewery"
+    ],
+    "type_ids": [
+      "brewery"
+    ],
+    "menu": {
+      "link": "http://lakeannebrewhouse.com/whats-on-tap/",
+      "source": "lakeannebrewhouse.com"
+    },
+    "order_online": "https://www.google.com/viewer/chooseprovider?mid=/g/11cm40xzh2&g2lbs=AOHF13kMn6npH_ESLvvZyYyA18_CBSm6qlG1_gYtOEMLxlF_mWFwTgdjdX7GYnUcpPiKLikiT5yjLr-JRf5RUj65R0_v9mcvyg%3D%3D&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=l78KZ7PaO6znwN4PhKuhkAg&ei=l78KZ7PaO6znwN4PhKuhkAg&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+    "service_options": {
+      "delivery": false
+    },
+    "extensions": [
+      {
+        "from_the_business": [
+          "Identifies as women-owned"
+        ]
+      },
+      {
+        "accessibility": [
+          "Wheelchair accessible entrance",
+          "Wheelchair accessible parking lot"
+        ]
+      },
+      {
+        "offerings": [
+          "Alcohol",
+          "Beer"
+        ]
+      },
+      {
+        "amenities": [
+          "Bar onsite",
+          "Gender-neutral restroom"
+        ]
+      },
+      {
+        "crowd": [
+          "LGBTQ+ friendly",
+          "Transgender safespace"
+        ]
+      },
+      {
+        "payments": [
+          "Credit cards",
+          "Debit cards",
+          "NFC mobile payments"
+        ]
+      }
+    ],
+    "address": "11424 Washington Plaza W, Reston, VA 20190",
+    "website": "http://lakeannebrewhouse.com/",
+    "phone": "(571) 758-2739",
+    "open_state": "Open ⋅ Closes 9 PM",
+    "plus_code": "XM95+8G Reston, Virginia",
+    "hours": [
+      {
+        "saturday": "10 AM–9 PM"
+      },
+      {
+        "sunday": "1–6 PM"
+      },
+      {
+        "monday": "Closed (Columbus Day)"
+      },
+      {
+        "tuesday": "Closed"
+      },
+      {
+        "wednesday": "4–9 PM"
+      },
+      {
+        "thursday": "4–9 PM"
+      },
+      {
+        "friday": "4–9 PM"
+      }
+    ],
+    "images": [
+      {
+        "title": "All",
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNx2PQFG_b12nXK53D6Gk8phpLxzLP9_zpp9uR3=w446-h298-k-no"
+      },
+      {
+        "title": "Building",
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipP8oD6KZDwH4jZP8QgeDRUMvNLH8gH7nPWqZkO7=w446-h298-k-no"
+      },
+      {
+        "title": "Videos",
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPRzh9UoXObRUCG0Tmrdsj0v8xII_r2tvz0P93Z=w224-h398-k-no"
+      },
+      {
+        "title": "Beer",
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOaTJOBpfgPiN9AohO-0gOCcZA1bQheTdS8zRAW=w446-h298-k-no"
+      },
+      {
+        "title": "By owner",
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNqBA1GBmKCSUk1Txjj_X9nwFP6fDPFiRAezst7=w446-h298-k-no"
+      },
+      {
+        "title": "Street View & 360°",
+        "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=J2ZOW-Yrk6FZ5t0Hf3FmAQ&cb_client=maps_sv.tactile.gps&w=224&h=298&yaw=33.46981&pitch=0&thumbfov=100"
+      }
+    ],
+    "questions_and_answers": [
+      {
+        "question": {
+          "text": "Do you have gift certificates?",
+          "date": "a year ago",
+          "language": "en"
+        },
+        "answer": {
+          "text": "We do have gift cards. You can load any amount you'd like.",
+          "date": "a year ago",
+          "language": "en"
+        },
+        "total_answers": 1
+      }
+    ],
+    "user_reviews": {
+      "summary": [
+        {
+          "snippet": "Good selection, friendly service & hangout, little pricey"
+        },
+        {
+          "snippet": "Friendly staff, tasty beer, and great atmosphere."
+        },
+        {
+          "snippet": "Kid friendly, the perfect place for a relaxing Sunday afternoon."
+        }
+      ],
+      "most_relevant": [
+        {
+          "username": "AK Akula",
+          "rating": 4,
+          "contributor_id": "110886198205589821914",
+          "description": "Little quaint brewery located at Lake Anne waterfront. When I approached the place, my first impression was that it was located in somebodys basement. But opening the door, I was pleasantly surprised with clean and neat brewery and friendly greeting by the staff at the counter behind, which had about 10 taps all brewed in-store. The weather was a dampener. Otherwise, we could have sat on the deck by the river, sipping the drinks. Beer selection ranges from lighter to IPA to dark ones. They have cider, shandy, and Kombucha options, too. Food options are limited to nice, warm pretzels and some packaged snacks, which is expected in a small local brewery like this. The good news is they have a great neighbors serving good food like Lake Anne Coffee House and Kalypso. You can get the food ordered from there or bring your own food.",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNEc3FIV2Z3EAE!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgICDsqHWfw%7CCgwI66CLsAYQ8IOmgAI%7C?hl=en-US",
+          "images": [
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMz98v192pJSZ9Eu6TZ9MxLWwgXic0nyPQPbcGO=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOTlQ5WabTcUUOceJxSdnMenqLvLurmHYpAkHZ1=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipP61Qi80DdcOr-ezKNJAaUxtp5bYdt3Unnrg9kF=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNrkqs_JCSB4NxIhy1a8Dm-2o-aRtWDZTRlskUr=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPDXFI4ElP1-EUvmDUjSuVvj2El53vxvXQy7qb2=w150-h150-k-no-p"
+            }
+          ],
+          "date": "6 months ago"
+        },
+        {
+          "username": "M Stojakovich",
+          "rating": 5,
+          "contributor_id": "109120529458838453440",
+          "description": "Cute place, decent pretzels. The beer cheese isn't that good so go for the mustard, its standard yellow. My fiance and I both liked the beer, I had the Live Work Play IPA. The interior almost seems European inspired, it just reminded me of those little cafe's. Cute place though, great staff with personality.",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNUelB2Qm5nRRAB!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgICTzPvBngE%7CCgwI2L__sQYQwKPZhgM%7C?hl=en-US",
+          "date": "5 months ago"
+        },
+        {
+          "username": "Conor Terry",
+          "rating": 5,
+          "contributor_id": "109393355265551999143",
+          "description": "What a cozy brewery, tucked into the Village of Lake Anne this place is definitely worthy of visiting. The beer was clean and well done and, as a nice change, just simpler styles done right. The heater and fire on the patio were nice to see since sitting outdoors nowadays is a safer bet than indoors.\n\nThe staff were friendly and the pretzels (Nordic Knot) were great. My only gripe would be that the take home options were very limited which means I can't take such good beer to go.",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNtb2JYaVdnEAE!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgICmobXiWg%7CCgwIwoe5jgYQiNz72QE%7C?hl=en-US",
+          "images": [
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPZKrt7zzRnW43xbNGB0_IsRknqeCzJ9hkQKeIS=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMVry3Q25iTf3WgdzZhYf_7GV8MPYXUVgGL8aDJ=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipP6ikJHOvzMQTgHuTKZFINICNc6aoa9fIdunPyM=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO9E_-En8buWIuLaEqa9SafWDFeG3imXegCpEnr=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOF0VTBlLrpUCHTTi2B2yPYne0GaGIwfnl6IKD-=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMR7IhhxZV_Ubk3wvIl1LdnXex1iHwRqDeZA_r2=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipN5XtBu7Siu_VEaTh9m8X1fZ_SNJrrTUNyT_wpT=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipN85fqXXl5CtU6L8BbH2BgFP0YufkWWwS4GNQRN=w150-h150-k-no-p"
+            }
+          ],
+          "date": "2 years ago"
+        },
+        {
+          "username": "sai subramaniam",
+          "rating": 5,
+          "contributor_id": "116603277484040315145",
+          "description": "Realised that it is open between Thursday to Sunday - so will be back to the brew house soon!!\nHowever, walk around the lake was wonderful. Calm waters and so much activities happening around it! Perfect weekend place for sure - must be lit up then! Further review when I am back to the brew house 😍🍻\nYes we did! They served us the tasters and we chose few IPAs. The beer is good and we had a good time �",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR1eFlYQ093EAE!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgIDuxYXCOw%7CCgwIwuehmAYQoOKkrAI%7C?hl=en-US",
+          "images": [
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNVJ_M8gZ8f9XEUwqG5GyBeBXiGItBl8Mj6Qdbt=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipP_pLlVhbChhgR8kiDm74juPlUB18qVS8QKE0jx=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOK1U17uz0Zq8AK3YqU--Xa1F_OdPsqsTdCx2rn=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNrRXjTFzc6hIZ-9D6e-VBtdeMm-gBUT89fIcvS=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPr9SMQ6xSwqx7UScOOAB7xRvgHnoTWDNvGgTCw=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO1gxlYLnTN-rWYirDB0e39iwCw1CAEESB8yxxf=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPeOHisEeom1ahN4uT5NFfxWmzo9kcdWaapuzcx=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOt0GHyK9O_uMi00kao0YtqCw7Wbg09S3J4I6XX=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPWQb73v3_1vb7oYMAnXJHklq1LWZN660dby9k7=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPf7WaQNdvJ8PG1eMA--wQa1ytQNbPCZM_Qa-hz=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNy_B-lvXPzPTWal7za38kEMtqnRZKmvQULl4pL=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipM37JrBKbAdyDnbS-pENuZpY_pvw2yKQEuWe5Do=w150-h150-k-no-p"
+            }
+          ],
+          "date": "2 years ago"
+        },
+        {
+          "username": "Ethan Kang",
+          "rating": 4,
+          "contributor_id": "104584650414181873598",
+          "description": "Small brewery with 10 beers/ciders on tap with friendly staff. They were happy to offer my friend samples before ordering!\n\nThey have both indoor seating and a great patio section looking out over the water of Lake Anne. The location (and maybe the weather that day) isn't the best and feels like you're surrounded by concrete buildings, but nevertheless a great place to people watch and enjoy a beer.",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNUaktlOGR3EAE!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgICTjKe8dw%7CCgwIgYv_sQYQoLLl8gE%7C?hl=en-US",
+          "date": "5 months ago"
+        },
+        {
+          "username": "Clint Harding",
+          "rating": 4,
+          "contributor_id": "115421323450829883365",
+          "description": "Lake Anne is a quaint location which offers a nice spot to sit back and relax. I found this brewery by random Google map search and I'm glad I did. It is a small brewery but offers some nice seating both inside and outside. It is nestled around the inlet of the lake, which offers a nice atmosphere. They have some good beer options, including a shandy which can be mixed with several different options. Friendly staff and a fun time. Stop in for a beer and a pretzel, you will not be disappointed.",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR1LWQtdG9nRRAB!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgIDu-d-togE%7CCgwI7PaamAYQ2NPr3gI%7C?hl=en-US",
+          "images": [
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO0VNRJ4plVj4jEbAK1HPAIvfy1RfrZq0o2FTdJ=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNULepW40tvknXQ3WxMYD4CaGleg8xhE5aff1hv=w150-h150-k-no-p"
+            }
+          ],
+          "date": "2 years ago"
+        },
+        {
+          "username": "Tyler TM",
+          "rating": 5,
+          "contributor_id": "104718847626277974917",
+          "description": "I was in the reston area for a business trip and this became my go to evening spot.  The crowd here is fantastic (mix of local runners and cyclists along with the usual neighborhood crowd).  Beers are fantastic and the views of the lake are lovely.",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNlOTVTUHJ3RRAB!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgICe95SPrwE%7CCgsIpdrHmQYQ6JW4TQ%7C?hl=en-US",
+          "images": [
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMRA3h3bzjkTbkuT77mzTgB6egR6Dfvxuut7z37=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipM8QmfLv3z8Y830m7sBVA4junrFKBIYMdXS494k=w150-h150-k-no-p"
+            }
+          ],
+          "date": "2 years ago"
+        },
+        {
+          "username": "A H",
+          "rating": 5,
+          "contributor_id": "109577039477222826568",
+          "description": "Second brewery stop yesterday. We both loved the place. Great staff, good brew, delicious pretezel! Plus you have a wonderful view of the water!",
+          "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNDbm95cEp3EAE!2m1!1s0x0:0xd07345f08df71d92!3m1!1s2@1:CIHM0ogKEICAgICCnoypJw%7CCgwI47iK-gUQqLmszgI%7C?hl=en-US",
+          "images": [
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO0dnzZy0ICl_eaWLdwrb4lFauP-qUH2Ogp4ALk=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOAjp6kNODJwMhuEoYoDRNd0MdyG49iaJICmsuu=w150-h150-k-no-p"
+            },
+            {
+              "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPtMZFQkjv-qDjGkx0JHRIA92frqz3GUeMiAnhH=w150-h150-k-no-p"
+            }
+          ],
+          "date": "4 years ago"
+        }
+      ]
+    },
+    "people_also_search_for": [
+      {
+        "search_term": "People also search for",
+        "local_results": [
+          {
+            "position": 1,
+            "title": "Lake Anne Coffee House & Wine Bar",
+            "data_id": "0x0:0x7061979af241d83c",
+            "data_cid": "8097920296734021692",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x0%3A0x7061979af241d83c&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x0%3A0x7061979af241d83c&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+              "latitude": 38.9688167,
+              "longitude": -77.3412917
+            },
+            "place_id_search": "https://serpapi.com/search.json?data=%214m5%213m4%211s0x0%3A0x7061979af241d83c%218m2%213d38.9688167%214d-77.3412917&engine=google_maps&google_domain=google.com&hl=en&type=place",
+            "rating": 4.3,
+            "reviews": 537,
+            "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNfp7d0yQI13TLWIC8MO6ftj84B6EFwTUT7ZggQ=w156-h156-n-k-no",
+            "type": [
+              "Cafe",
+              "Coffee roasters",
+              "Wine bar"
+            ]
+          },
+          {
+            "position": 2,
+            "title": "Crafthouse Reston",
+            "data_id": "0x0:0x3154ccd164288726",
+            "data_cid": "3554691205602772774",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x0%3A0x3154ccd164288726&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x0%3A0x3154ccd164288726&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+              "latitude": 38.9577714,
+              "longitude": -77.36076969999999
+            },
+            "place_id_search": "https://serpapi.com/search.json?data=%214m5%213m4%211s0x0%3A0x3154ccd164288726%218m2%213d38.9577714%214d-77.36076969999999&engine=google_maps&google_domain=google.com&hl=en&type=place",
+            "rating": 4.1,
+            "reviews": 1001,
+            "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNyLQCdyiX5OoeE1UCSRxQJooD7PD7SXIP7oMZo=w277-h156-k-no",
+            "type": [
+              "Sports bar",
+              "Grill",
+              "Beer store",
+              "Gastropub",
+              "Live Music",
+              "Restaurant"
+            ]
+          },
+          {
+            "position": 3,
+            "title": "Settle Down Easy - Oakton Tasting Room",
+            "data_id": "0x0:0x3956c573bec26cd4",
+            "data_cid": "4131706809071332564",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x0%3A0x3956c573bec26cd4&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x0%3A0x3956c573bec26cd4&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+              "latitude": 38.881153499999996,
+              "longitude": -77.302787
+            },
+            "place_id_search": "https://serpapi.com/search.json?data=%214m5%213m4%211s0x0%3A0x3956c573bec26cd4%218m2%213d38.881153499999996%214d-77.302787&engine=google_maps&google_domain=google.com&hl=en&type=place",
+            "rating": 4.9,
+            "reviews": 85,
+            "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMVVFuE9baBYkFC0XYufBSPag2LW4MCw79uAW5M=w156-h156-n-k-no",
+            "type": [
+              "Brewery",
+              "Brewpub",
+              "Brunch",
+              "Restaurant",
+              "Sports bar"
+            ]
+          },
+          {
+            "position": 4,
+            "title": "Aslin Beer Company - Herndon",
+            "data_id": "0x0:0xa6fb7190471856a4",
+            "data_cid": "12032335693932418724",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x0%3A0xa6fb7190471856a4&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x0%3A0xa6fb7190471856a4&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+              "latitude": 38.969510199999995,
+              "longitude": -77.3869089
+            },
+            "place_id_search": "https://serpapi.com/search.json?data=%214m5%213m4%211s0x0%3A0xa6fb7190471856a4%218m2%213d38.969510199999995%214d-77.3869089&engine=google_maps&google_domain=google.com&hl=en&type=place",
+            "rating": 4.7,
+            "reviews": 473,
+            "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNiuyEWvMA80wnw2ZOHJon846E1Thm31LMmfYaZ=w156-h156-n-k-no",
+            "type": [
+              "Brewery"
+            ]
+          },
+          {
+            "position": 5,
+            "title": "Ono Brewing Company",
+            "data_id": "0x0:0x6e6a3023325df653",
+            "data_cid": "7956224619430409811",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x0%3A0x6e6a3023325df653&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x0%3A0x6e6a3023325df653&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+              "latitude": 38.883346499999995,
+              "longitude": -77.4448547
+            },
+            "place_id_search": "https://serpapi.com/search.json?data=%214m5%213m4%211s0x0%3A0x6e6a3023325df653%218m2%213d38.883346499999995%214d-77.4448547&engine=google_maps&google_domain=google.com&hl=en&type=place",
+            "rating": 4.7,
+            "reviews": 452,
+            "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipP8h_v1TSCPOgYzS-IxZ9PT92Qa0al0yO3PUawM=w156-h156-n-k-no",
+            "type": [
+              "Brewery",
+              "Bar",
+              "Beer Garden",
+              "Beer store",
+              "Brewpub",
+              "Event venue",
+              "Restaurant"
+            ]
+          }
+        ]
+      }
+    ],
+    "web_results_link": "https://www.google.com/search?q=local+guide+program&ibp=gwp;0,26,OiUKIyIfTGFrZSBBbm5lIEJyZXcgSG91c2UgUmVzdG9uLCBWQSgC&pcl=lp",
+    "serpapi_web_results_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&ibp=gwp%3B0%2C26%2COiUKIyIfTGFrZSBBbm5lIEJyZXcgSG91c2UgUmVzdG9uLCBWQSgC&q=local+guide+program"
+  }
+}
