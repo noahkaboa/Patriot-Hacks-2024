@@ -1,14 +1,12 @@
 body {
-    background: rgb(106,138,120);
-    background: radial-gradient(circle, rgba(106,138,120,1) 21%, rgba(191,207,156,1) 80%, rgba(255, 233, 207, 1) 100%);
+    background: rgb(255,233,207);
+    background: radial-gradient(circle, rgba(255,233,207,1) 0%, rgba(192,228,220,1) 56%, rgba(131,173,147,1) 100%);
 }
 
 h2 {
     text-align: center;
     font-size: 70px;
     margin: 35px 0 25px;
-    text-shadow: 2px 2px 2px white;
-
 }
 
 .event-timeline {
