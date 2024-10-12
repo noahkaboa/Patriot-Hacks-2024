@@ -1,5 +1,17 @@
 .text {
     margin: 0;
-    top: 50%;
+    margin-left: 2vw;
+    top: 40%;
     position: absolute;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 0;
+    font-style: italic;
 }
