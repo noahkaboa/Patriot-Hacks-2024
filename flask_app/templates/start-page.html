@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <div id="loader"></div>
+    <!-- <div id="loader"></div> -->
 
     <div class="wrapper">
         <div class="left-side">
@@ -54,13 +54,13 @@
         }
 
         function sendToServer() {
-            var loader = document.getElementById("loader");
-            if (loader.style.display === "none") {
-                loader.style.display = "block";
-            } else {
-                loader.style.display = "none";
-            }
-            
+            // var loader = document.getElementById("loader");
+            // if (loader.style.display === "none") {
+            //     loader.style.display = "block";
+            // } else {
+            //     loader.style.display = "none";
+            // }
+
             fetch('/process', {
                 method: 'POST',
                 headers: {
