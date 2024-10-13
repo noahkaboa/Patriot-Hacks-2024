@@ -75,7 +75,7 @@ button {
 }
 
 button:hover, button:active {
-    background-color: rgb(200, 229, 206);
+    background-color: rgb(182, 212, 188);
     transition: all .5s ease;
 }
 
