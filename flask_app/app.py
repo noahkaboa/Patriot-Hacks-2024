@@ -15,7 +15,9 @@ def start_page():
 @app.route('/process', methods=['POST'])
 def process():
     try:
-        data = request.json
+        data = request.get_json(silent=True)
+        if not data or 'interests' not in data:
+            return jsonify({'error': 'Invalid request'}), 400
         array = data.get('interests', [])
 
         recommendations = nlp.rank_businesses(array, 5)
@@ -29,12 +31,16 @@ def process():
 
 @app.route('/your-day/<result_array>')
 def your_day(result_array):
-    businesses = result_array.split(',')
+    try:
+        businesses = result_array.split(',')
 
-    return render_template('your-day.html', businesses=businesses, descriptions=[nlp.get_desc(business) for business in businesses], zip=zip)
+        return render_template('your-day.html', businesses=businesses, descriptions=[nlp.get_desc(business) for business in businesses], zip=zip)
+    except Exception as e:
+        print(f"Error: {e}")
+        return redirect(url_for('home'))
 
 
 print("??")
 if __name__ == '__main__':
     print("Starting Flask app")
-    app.run(debug=True, host='127.0.0.1', port=4444)
+    app.run(debug=True, host='127.0.0.1', port=5000)
