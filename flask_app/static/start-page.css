@@ -1,5 +1,5 @@
 body {
-    background: #c1dfd0;
+    background: #cceadb;
     overflow-y: hidden;
 }
 
@@ -62,9 +62,15 @@ body {
 .generate-button {
     width: 60%;
     margin: auto;
+    height: 5vw;
+    background-color: rgb(137, 183, 151);
     margin-top: 1vw;
     font-size: 20px;
     font-family: "BaksoSapi", serif;
+}
+
+.generate-button:hover {
+    background-color: #518766;
 }
 
 .interests-input {
@@ -92,3 +98,23 @@ body {
     font-size: 25px;
     margin-bottom: 2vw;
 }
+
+.loader {
+    z-index: 3;
+    position: fixed;
+    margin: auto;
+    top: 30%;
+    left: 40%;
+    border: 20px solid #ffedd9;
+    border-radius: 50%;
+    border-top: 20px solid rgb(146, 144, 113);
+    width: 200px;
+    height: 200px;
+    animation: spinner 4s linear infinite;
+    display: none;
+  }
+  
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
