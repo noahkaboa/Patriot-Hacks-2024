@@ -39,6 +39,10 @@
         interests =[]
         function addInterest() {
             let interest = document.querySelector('.interests-input').value
+            if (interest === "") {
+                alert("Please enter an interest")
+                return
+            }
             interests.push(interest)
 
             interestsInput.value = ""
@@ -52,6 +56,10 @@
         }
 
         function sendToServer() {
+            if (interests.length == 0) {
+                alert("Please enter some interests")
+                return
+            }
             fetch('/process', {
                 method: 'POST',
                 headers: {

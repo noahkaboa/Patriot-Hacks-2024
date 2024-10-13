@@ -5,6 +5,11 @@ import json # built-in
 nat_lang_proc = spacy.load("en_core_web_lg")
 
 
+def get_desc(business):
+    with open('./resources/directory.json', 'r') as f:
+        directory = json.load(f)
+    return directory[business]["description"]
+
 def rank_businesses(preferences, num_results=5):
     with open('./resources/directory.json', 'r') as f:
         directory = json.load(f)

@@ -1,10 +1,8 @@
 import traceback
 from flask import Flask, render_template, request, redirect, url_for, jsonify, current_app, flash # pip install flask
 import nlp
-import sys
 
 app = Flask(__name__)
-print(__name__, file=sys.stdout)
 
 @app.route('/')
 def home():
@@ -33,7 +31,7 @@ def process():
 def your_day(result_array):
     businesses = result_array.split(',')
 
-    return render_template('your-day.html', businesses=businesses)
+    return render_template('your-day.html', businesses=businesses, descriptions=[nlp.get_desc(business) for business in businesses], zip=zip)
 
 
 print("??")

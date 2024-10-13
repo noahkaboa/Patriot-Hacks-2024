@@ -14,14 +14,12 @@
     </div>
 
 
-    <h1>Results</h1>
-    <ul>
-        {% for business in businesses %}
-            <li>{{ business }}</li>
+    <h1 class="event-timeline">Results</h1>
+        {% for business, desc in zip(businesses, descriptions) %}
+            <div class="event-item">{{ business }} - {{ desc }}</div>
         {% endfor %}
-    </ul>
 
-    <h2> Your Day in Fairfax! </h2>
+    <!-- <h2> Your Day in Fairfax! </h2>
     <div class="event-timeline">
         <div class="event-item">
             <p> Guthridge Hall </p>
@@ -32,7 +30,7 @@
             <p> Guthridge Hall </p>
             <p> 2115 F St NW </p>
         </div>
-    </div>
+    </div> -->
 
     <button class="back-button"><a href="{{ url_for('home') }}"> Back to Home </a></button>
 
